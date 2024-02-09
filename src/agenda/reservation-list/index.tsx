@@ -281,7 +281,6 @@ class ReservationList extends Component<ReservationListProps, State> {
         showsVerticalScrollIndicator={false}
         scrollEventThrottle={200}
         onMoveShouldSetResponderCapture={this.onMoveShouldSetResponderCapture}
-        onScroll={this.onScroll}
         refreshControl={this.props.refreshControl}
         refreshing={this.props.refreshing}
         onRefresh={this.props.onRefresh}
